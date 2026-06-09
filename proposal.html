@@ -84,7 +84,33 @@ h1,h2,h3{font-family:'Fraunces',serif;color:var(--navy);line-height:1.12}
 .success p{color:var(--muted);font-size:.95rem}
 .success .sigline{font-family:'Fraunces';font-size:1.6rem;color:var(--navy);border-bottom:2px solid var(--line);display:inline-block;padding:6px 30px 2px;margin:14px 0 4px}
 .foot{padding:24px 0;text-align:center;font-size:.8rem;color:var(--muted)}
-@media(max-width:680px){.compare,.grid2,.split,.signcard .row{grid-template-columns:1fr}.timeline{flex-direction:column}.shot{height:200px}}
+.rev{background:var(--cream)}
+.revstats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0 30px}
+.revstat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}
+.revstat b{font-family:'Fraunces';font-size:1.9rem;color:var(--navy);display:block;line-height:1}
+.revstat span{font-size:.8rem;color:var(--muted);display:block;margin-top:6px}
+.rev-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.rev-calc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px}
+.rev-calc h3{font-size:1.2rem;margin-bottom:2px}
+.rev-calc .note{font-size:.8rem;color:var(--muted);margin-bottom:16px}
+.rev-rows{list-style:none}
+.rev-rows li{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dashed var(--line);font-size:.95rem}
+.rev-rows li span{color:#374151}.rev-rows li b{color:var(--navy);font-weight:700}
+.rev-rows li.total{border-bottom:0;border-top:2px solid var(--navy);margin-top:6px;padding-top:14px}
+.rev-rows li.total b{color:var(--green-deep);font-size:1.25rem;font-family:'Fraunces'}
+.rev-year{margin-top:14px;background:linear-gradient(135deg,var(--green),var(--green-deep));color:#fff;border-radius:12px;padding:14px;text-align:center;font-family:'Fraunces';font-size:1.3rem;font-weight:700}
+.rev-vis{background:#0f2845;border-radius:18px;padding:26px;display:flex;flex-direction:column}
+.rev-vis h3{color:#fff;font-size:1.1rem;margin-bottom:4px}
+.rev-vis .sub{color:#9aa9bd;font-size:.78rem;margin-bottom:auto}
+.chart{display:flex;align-items:flex-end;gap:14px;height:180px;margin-top:20px}
+.chart .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;height:100%;justify-content:flex-end}
+.chart .col i{width:100%;border-radius:8px 8px 0 0;background:linear-gradient(180deg,#7cc063,#467a37);display:block}
+.chart .col.now i{background:linear-gradient(180deg,#5a6b7e,#3a4655)}
+.chart .col em{font-style:normal;color:#cdd6e2;font-size:.72rem}
+.chart .col .amt{color:#fff;font-weight:700;font-size:.8rem}
+.footnote{font-size:.74rem;color:var(--muted);margin-top:22px;line-height:1.6}
+.footnote a{color:var(--green-deep)}
+@media(max-width:680px){.compare,.grid2,.split,.signcard .row,.rev-grid{grid-template-columns:1fr}.revstats{grid-template-columns:1fr}.timeline{flex-direction:column}.shot{height:200px}}
 </style></head><body>
 
 <div class="topnav"><div class="wrap">
@@ -163,6 +189,43 @@ h1,h2,h3{font-family:'Fraunces',serif;color:var(--navy);line-height:1.12}
     <h2 style="color:#fff;font-size:clamp(1.7rem,4vw,2.5rem);margin-bottom:8px">From Bronze to Gold on Google</h2>
     <p style="color:#9aa9bd;max-width:640px;margin-bottom:26px">We scored your current site with our Atlas Index™ engine, then projected the new build plus your first SEO package on your own domain. The result: a jump from <strong style="color:#fff">Bronze (56.7)</strong> to a projected <strong style="color:#7cc063">Gold (≈84)</strong>.</p>
     <img src="Atlas-Today-vs-After.png" alt="Atlas Index SEO scorecard — Amazonia Floors today (56.7, Bronze) versus after the new website and first SEO package (projected 84, Gold)" style="width:100%;border-radius:16px;box-shadow:0 24px 60px -28px rgba(0,0,0,.7)">
+  </div>
+</section>
+
+<section class="sec rev" id="revenue">
+  <div class="wrap">
+    <div class="sec-t">What this can mean for your business</div>
+    <h2 style="font-size:clamp(1.7rem,4vw,2.4rem)">More visibility → more estimate calls</h2>
+    <p class="lead">A higher score isn't vanity — it's about getting Amazonia in front of the homeowners already searching <em>"hardwood floor installation Baltimore."</em> On Google, the <b>top 3 results capture about 68% of all clicks</b>, and below the top 5 it drops under 5%. Climbing the rankings is where the leads are.</p>
+    <div class="revstats">
+      <div class="revstat"><b>~68%</b><span>of clicks go to the top 3 Google results</span></div>
+      <div class="revstat"><b>&lt;5%</b><span>of clicks for sites below the top 5</span></div>
+      <div class="revstat"><b>57 → 84</b><span>your Atlas score, Bronze → Gold</span></div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-calc">
+        <h3>What a few extra leads is worth</h3>
+        <p class="note">Illustrative — plug in your own numbers. Not a guarantee of results.</p>
+        <ul class="rev-rows">
+          <li><span>Extra estimate requests / month</span><b>+5</b></li>
+          <li><span>Jobs won (≈40% close rate)</span><b>2</b></li>
+          <li><span>Average project value</span><b>$3,500</b></li>
+          <li class="total"><span>Potential new revenue</span><b>~$7,000/mo</b></li>
+        </ul>
+        <div class="rev-year">≈ $84,000 / year in new work</div>
+      </div>
+      <div class="rev-vis">
+        <h3>Illustrative new-work ramp</h3>
+        <div class="sub">As rankings build over the first year (example)</div>
+        <div class="chart">
+          <div class="col now"><span class="amt">$0</span><i style="height:8%"></i><em>Now</em></div>
+          <div class="col"><span class="amt">$3k</span><i style="height:30%"></i><em>Mo 3</em></div>
+          <div class="col"><span class="amt">$5k</span><i style="height:55%"></i><em>Mo 6</em></div>
+          <div class="col"><span class="amt">$7k+</span><i style="height:85%"></i><em>Mo 12</em></div>
+        </div>
+      </div>
+    </div>
+    <p class="footnote">Click-through-rate by Google ranking position: <a href="https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/">First Page Sage</a> &amp; <a href="https://backlinko.com/google-ctr-stats">Backlinko</a> (2025–2026). Revenue figures above are an <b>illustrative scenario</b> using adjustable assumptions (lead volume, close rate, job value) — actual results vary and are not guaranteed.</p>
   </div>
 </section>
 

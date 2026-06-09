@@ -14,16 +14,17 @@ body{font-family:'Inter',sans-serif;background:#08182e;color:#fff;padding:34px}
 .brand{display:flex;align-items:center;gap:10px}.brand img{width:30px}
 .scores{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;padding:44px 34px 38px}
 .score{text-align:center}
-.score .lbl{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:14px}
+.score .lbl{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:#b6c0ce;font-weight:700;margin-bottom:14px}
 .ring{width:176px;height:176px;border-radius:50%;display:grid;place-items:center;margin:0 auto}
 .ring .num{font-family:'Fraunces';font-size:3.6rem;font-weight:700;line-height:1}
 .ring .of{font-size:.82rem;color:var(--muted)}
-.today .ring{background:conic-gradient(#9aa3b0 0 56.7%,rgba(255,255,255,.08) 0)}
-.after .ring{background:conic-gradient(var(--green) 0 84%,rgba(255,255,255,.08) 0)}
+.today .ring{background:conic-gradient(#cbd3df 0 56.7%,rgba(255,255,255,.08) 0)}
+.after .ring{background:conic-gradient(#6fc24f 0 84%,rgba(255,255,255,.08) 0)}
 .ring .inner{width:146px;height:146px;border-radius:50%;background:#0c2138;display:grid;place-items:center}
 .tier{margin-top:16px;font-weight:700;font-size:1.05rem;padding:.35rem 1.1rem;border-radius:999px;display:inline-block}
-.tier.bronze{background:rgba(154,163,176,.18);color:#c2c9d4}
-.tier.gold{background:rgba(199,154,59,.2);color:#e6c074}
+.tier.bronze{background:rgba(180,190,205,.2);color:#dde3eb}
+.tier.gold{background:rgba(111,194,79,.2);color:#8fd76e}
+.grade{color:#97a2b1}
 .grade{font-size:.82rem;color:var(--muted);margin-top:8px}
 .arrow{font-size:2.6rem;color:var(--green);font-weight:700;text-align:center;line-height:1}
 .delta{text-align:center;font-size:.95rem;color:var(--green);font-weight:700;margin-top:8px;white-space:nowrap}
@@ -44,13 +45,13 @@ body{font-family:'Inter',sans-serif;background:#08182e;color:#fff;padding:34px}
   <div class="scores">
     <div class="score today">
       <div class="lbl">Your site today</div>
-      <div class="ring"><div class="inner"><div><div class="num" style="color:#c2c9d4">57</div><div class="of">/ 100</div></div></div></div>
+      <div class="ring"><div class="inner"><div><div class="num" style="color:#eaeff5">57</div><div class="of">/ 100</div></div></div></div>
       <div class="tier bronze">Bronze</div><div class="grade">Grade D</div>
     </div>
     <div><div class="arrow">→</div><div class="delta">+27 points</div></div>
     <div class="score after">
       <div class="lbl">New site + 1st SEO package</div>
-      <div class="ring"><div class="inner"><div><div class="num" style="color:#5B9849">84</div><div class="of">/ 100</div></div></div></div>
+      <div class="ring"><div class="inner"><div><div class="num" style="color:#8fd76e">84</div><div class="of">/ 100</div></div></div></div>
       <div class="tier gold">Gold</div><div class="grade">Grade B</div>
     </div>
   </div>
