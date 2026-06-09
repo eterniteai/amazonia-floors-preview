@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Amazonia Floors — Website 2.0 Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#173662;--navy-3:#0a1d33;--green:#5B9849;--green-deep:#467a37;--rust:#c02b0a;--cream:#f5f1e6;--ink:#1c2530;--muted:#5d6671;--line:rgba(23,54,98,.12)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;color:var(--ink);background:#e7e2d4}
+.page{width:880px;margin:24px auto;background:#fff;box-shadow:0 20px 60px -20px rgba(15,40,69,.4)}
+h1,h2,h3{font-family:'Fraunces',serif;color:var(--navy);line-height:1.1}
+.hero{background:var(--navy-3);color:#fff;padding:38px 48px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.hero img{height:62px}
+.hero .r{text-align:right}
+.hero .tag{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--green);font-weight:700}
+.hero h1{color:#fff;font-size:2rem;margin-top:4px}
+.body{padding:40px 48px}
+.lead{font-size:1.05rem;color:#374151;margin-bottom:30px;line-height:1.65}
+.lead b{color:var(--navy)}
+.sec-t{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--green-deep);font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.sec-t::before{content:"";width:24px;height:2px;background:var(--green)}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:34px}
+.frame{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 10px 30px -16px rgba(15,40,69,.35)}
+.bar{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#f1eee6;border-bottom:1px solid var(--line)}
+.bar i{width:9px;height:9px;border-radius:50%;background:#cfc9ba;display:block}
+.bar span{font-size:.66rem;color:#9a927f;margin-left:8px}
+.shot{height:230px;overflow:hidden;background:#fff}
+.shot img{width:100%;display:block}
+.cap{text-align:center;font-size:.8rem;font-weight:700;padding:8px;letter-spacing:.04em}
+.cap.old{color:var(--muted)}.cap.new{color:var(--green-deep)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px 28px;margin-bottom:34px}
+.up{display:flex;gap:12px;align-items:flex-start}
+.up svg{width:20px;height:20px;color:var(--green);flex:none;margin-top:2px}
+.up b{display:block;color:var(--navy);font-size:.96rem;font-family:'Inter';font-weight:700}
+.up p{font-size:.85rem;color:var(--muted)}
+.cols{display:grid;grid-template-columns:1.3fr 1fr;gap:30px;margin-bottom:32px}
+.incl li{list-style:none;font-size:.9rem;padding:7px 0;border-bottom:1px dashed var(--line);display:flex;gap:9px}
+.incl li::before{content:"✓";color:var(--green);font-weight:800}
+.invest{background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:24px}
+.invest .sec-t{margin-bottom:10px}
+.invest .price{font-family:'Fraunces';font-size:2.4rem;color:var(--navy);font-weight:700}
+.invest .price small{font-size:.9rem;color:var(--muted);font-weight:400;font-family:'Inter'}
+.invest .note{font-size:.78rem;color:var(--muted);margin-top:8px}
+.timeline{display:flex;gap:10px;margin-top:8px}
+.tl{flex:1;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center}
+.tl b{display:block;font-family:'Fraunces';color:var(--navy);font-size:1.1rem}
+.tl span{font-size:.7rem;color:var(--muted)}
+.cta{background:var(--navy);color:#fff;border-radius:16px;padding:24px 28px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.cta h3{color:#fff;font-size:1.3rem}
+.cta p{color:rgba(255,255,255,.8);font-size:.86rem;margin-top:4px}
+.cta .btn{background:var(--rust);color:#fff;font-weight:700;padding:12px 24px;border-radius:999px;white-space:nowrap;font-size:.95rem}
+.foot{padding:18px 48px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted)}
+.foot b{color:var(--navy)}
+@media print{body{background:#fff}.page{box-shadow:none;margin:0;width:100%}@page{margin:0}}
+</style></head><body>
+<div class="page">
+
+  <div class="hero">
+    <img src="brand/amazonia-logo-mark.svg" alt="Amazonia Floors">
+    <div class="r">
+      <div class="tag">Website Redesign Proposal</div>
+      <h1>Amazonia Floors 2.0</h1>
+    </div>
+  </div>
+
+  <div class="body">
+    <p class="lead">Your current website works — but it's showing its age. Today's homeowners judge a contractor's quality by their website in <b>seconds</b>, and a dated site quietly sends premium jobs to competitors. <b>Amazonia Floors 2.0</b> keeps everything customers already recognize — your name, your navy &amp; green, your distinctive "A" — and rebuilds it into a fast, modern, mobile-first site designed to <b>turn visitors into estimate requests</b>.</p>
+
+    <div class="sec-t">Current vs. Proposed</div>
+    <div class="compare">
+      <div>
+        <div class="frame">
+          <div class="bar"><i></i><i></i><i></i><span>amazoniafloors.com</span></div>
+          <div class="shot"><img src="img/compare-old.png" alt="Current site"></div>
+        </div>
+        <div class="cap old">CURRENT SITE</div>
+      </div>
+      <div>
+        <div class="frame">
+          <div class="bar"><i></i><i></i><i></i><span>amazoniafloors.com</span></div>
+          <div class="shot"><img src="img/compare-new.jpeg" alt="Proposed 2.0 site"></div>
+        </div>
+        <div class="cap new">PROPOSED 2.0</div>
+      </div>
+    </div>
+
+    <div class="sec-t">What gets upgraded</div>
+    <div class="grid2">
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Modern, premium design</b><p>Magazine-style layout, smooth animations, real project photography front and center.</p></div></div>
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Mobile-first</b><p>Flawless on phones — where 60–70% of flooring searches happen — with tap-to-call.</p></div></div>
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Refreshed logo</b><p>Same "A" you own today, given depth and polish for a more established feel.</p></div></div>
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Built to convert</b><p>Clear calls-to-action and a simple 3-field estimate form on every screen.</p></div></div>
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Google-ready SEO</b><p>Structured data, clean titles &amp; descriptions, and local keywords for Baltimore &amp; Harford.</p></div></div>
+      <div class="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6L9 17l-5-5"/></svg><div><b>Fast &amp; reliable</b><p>Lightweight, quick-loading pages that keep visitors from bouncing.</p></div></div>
+    </div>
+
+    <div class="cols">
+      <div>
+        <div class="sec-t">What's included</div>
+        <ul class="incl">
+          <li>Full single-page site: Hero, Services, Finished Work, Portfolio, Why Us, Process, Reviews, Estimate, Footer</li>
+          <li>Six service sections with matching photography</li>
+          <li>Refreshed logo files (SVG + PNG, favicon, social)</li>
+          <li>Lead-capture estimate form</li>
+          <li>SEO setup + Google structured data</li>
+          <li>Mobile, tablet &amp; desktop tested</li>
+        </ul>
+      </div>
+      <div>
+        <div class="invest">
+          <div class="sec-t">Your investment</div>
+          <div class="price">$999 <small>one-time</small></div>
+          <div class="note">Includes the complete website build <b style="color:var(--navy)">plus your first batch of on-page SEO</b> — fully optimized for Google &amp; local Baltimore search. No hidden fees.</div>
+        </div>
+        <div class="sec-t" style="margin-top:18px">Timeline</div>
+        <div class="timeline">
+          <div class="tl"><b>1–2</b><span>days · design</span></div>
+          <div class="tl"><b>3–5</b><span>days · build</span></div>
+          <div class="tl"><b>1</b><span>day · launch</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <div>
+        <h3>Ready to see it live?</h3>
+        <p>A working preview is already built — review it, and we can have the new site live within a week.</p>
+      </div>
+      <a class="btn" href="#">Approve &amp; Start →</a>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Prepared by <b>Leone Moretti</b> · ______________</span>
+    <span>Amazonia Floors, LLC · 410-841-9780</span>
+  </div>
+</div>
+</body></html>
